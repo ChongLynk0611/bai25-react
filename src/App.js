@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Modal from './components/Modal/Modal';
-
+import GoogleForm from './components/GoogleFrom/GoogleForm';
 
 function App() {
   return (
     <div className="App">
-        <Modal />
+      <GoogleForm />
     </div>
   );
 }
